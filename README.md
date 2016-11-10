@@ -1,1 +1,1 @@
-# Smile shop repo
+# Smile shop
