@@ -1,7 +1,7 @@
-﻿namespace Smile_Shop.Application.ViewModels.Account
+﻿namespace Smile_Shop.ViewModels.Account
 {
-    using System.ComponentModel.DataAnnotations;
     using Lozalization.Resources;
+    using System.ComponentModel.DataAnnotations;
 
     public class ResetPasswordViewModel
     {

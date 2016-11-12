@@ -234,23 +234,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\AutoMapperConfig.cs" />
-    <Compile Include="Infrastructure\IHaveCustomMappings.cs" />
-    <Compile Include="Infrastructure\IMapFrom.cs" />
+    <Compile Include="Infrastructure\AnchorLinkHelpers.cs" />
+    <Compile Include="Infrastructure\UserDataFilter.cs" />
+    <Compile Include="Infrastructure\Views.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModels\Account\ExternalLoginConfirmationViewModel.cs" />
-    <Compile Include="ViewModels\Account\ExternalLoginListViewModel.cs" />
-    <Compile Include="ViewModels\Account\ForgotPasswordViewModel.cs" />
-    <Compile Include="ViewModels\Account\ForgotViewModel.cs" />
-    <Compile Include="ViewModels\Account\LoginViewModel.cs" />
-    <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
-    <Compile Include="ViewModels\Account\ResetPasswordViewModel.cs" />
-    <Compile Include="ViewModels\Account\SendCodeViewModel.cs" />
-    <Compile Include="ViewModels\Account\VerifyCodeViewModel.cs" />
-    <Compile Include="ViewModels\Manage\ChangePasswordViewModel.cs" />
-    <Compile Include="ViewModels\Manage\SetPasswordViewModel.cs" />
-    <Compile Include="ViewModels\User\UserVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -323,6 +311,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\Smile_Shop.Data.Common\Smile_Shop.Data.Common.csproj">
+      <Project>{0DE3D856-8BBE-41F7-9CD9-DEEC6323BC08}</Project>
+      <Name>Smile_Shop.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\Smile_Shop.Data.Models\Smile_Shop.Data.Models.csproj">
       <Project>{efd3db8c-506b-40d2-9a25-5ec46cfd389a}</Project>
       <Name>Smile_Shop.Data.Models</Name>
@@ -334,6 +326,10 @@
     <ProjectReference Include="..\..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
       <Project>{8968f5da-38de-4c2c-807b-57a3b10a92a3}</Project>
       <Name>Smile_Shop.Localization.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj">
+      <Project>{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}</Project>
+      <Name>Smile_Shop.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

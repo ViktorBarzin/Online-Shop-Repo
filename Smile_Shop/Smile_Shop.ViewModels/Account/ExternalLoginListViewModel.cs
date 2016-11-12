@@ -1,4 +1,4 @@
-﻿namespace Smile_Shop.Application.ViewModels.Account
+﻿namespace Smile_Shop.ViewModels.Account
 {
     public class ExternalLoginListViewModel
     {

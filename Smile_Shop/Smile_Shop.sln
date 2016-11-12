@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.UnitTests", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.Application", "Web\Smile_Shop.Application\Smile_Shop.Application.csproj", "{630EC6E2-1D91-49B3-A02F-78901A5FBAC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.ViewModels", "Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj", "{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{630EC6E2-1D91-49B3-A02F-78901A5FBAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630EC6E2-1D91-49B3-A02F-78901A5FBAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630EC6E2-1D91-49B3-A02F-78901A5FBAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +70,6 @@ Global
 		{8968F5DA-38DE-4C2C-807B-57A3B10A92A3} = {EF54DD85-7F8D-47A6-9AA6-D7852A608F19}
 		{289F6EAA-1C86-4BFF-BE79-39D8CA5D4487} = {54BDD57C-6B4A-4BAA-95F0-5037042A226D}
 		{630EC6E2-1D91-49B3-A02F-78901A5FBAC1} = {642F83EE-D3D8-4470-9AB3-6E6F38858B4C}
+		{2777F7AB-2AF7-46FC-929B-BBF50BF4036D} = {642F83EE-D3D8-4470-9AB3-6E6F38858B4C}
 	EndGlobalSection
 EndGlobal

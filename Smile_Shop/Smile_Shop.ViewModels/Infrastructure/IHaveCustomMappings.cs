@@ -1,4 +1,4 @@
-﻿namespace Smile_Shop.Application.Infrastructure
+﻿namespace Smile_Shop.ViewModels.Infrastructure
 {
     using AutoMapper;
 
