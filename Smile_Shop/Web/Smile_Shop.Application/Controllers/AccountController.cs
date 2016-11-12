@@ -1,17 +1,16 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Smile_Shop.Application.Models;
-
-namespace Smile_Shop.Application.Controllers
+﻿namespace Smile_Shop.Application.Controllers
 {
+    using System.Linq;
+    using System.Threading.Tasks;
+    using System.Web;
+    using System.Web.Mvc;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.Owin;
+    using Microsoft.Owin.Security;
+    using Smile_Shop.Application.App_Start;
+    using ViewModels.Account;
+    using Data.Models;
+
     [Authorize]
     public class AccountController : Controller
     {

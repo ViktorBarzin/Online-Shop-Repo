@@ -113,28 +113,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountViewModels.cs" />
-    <Compile Include="IdentityModels.cs" />
-    <Compile Include="ManageViewModels.cs" />
+    <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="ApplicationUser.cs" />
+    <Compile Include="Entities\AuditInfo.cs" />
+    <Compile Include="Entities\DeletableEntity.cs" />
+    <Compile Include="Entities\IAuditInfo.cs" />
+    <Compile Include="Entities\IDeletableEntity.cs" />
+    <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Web\Smile_Shop.Application\Smile_Shop.Application.csproj">
-      <Project>{630ec6e2-1d91-49b3-a02f-78901a5fbac1}</Project>
-      <Name>Smile_Shop.Application</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Smile_Shop.Data.Common\Smile_Shop.Data.Common.csproj">
-      <Project>{0de3d856-8bbe-41f7-9cd9-deec6323bc08}</Project>
-      <Name>Smile_Shop.Data.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Smile_Shop.Data.Services\Smile_Shop.Data.Services.csproj">
-      <Project>{9d727629-125d-456c-ae9e-d8accaa5e757}</Project>
-      <Name>Smile_Shop.Data.Services</Name>
+    <ProjectReference Include="..\..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
+      <Project>{8968f5da-38de-4c2c-807b-57a3b10a92a3}</Project>
+      <Name>Smile_Shop.Localization.Resources</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
