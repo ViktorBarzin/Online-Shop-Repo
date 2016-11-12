@@ -1,6 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-
-namespace Smile_Shop.Data.Services.Implementations
+﻿namespace Smile_Shop.Data.Services.Implementations
 {
     using System.Linq;
     using Contracts;
@@ -8,6 +6,8 @@ namespace Smile_Shop.Data.Services.Implementations
     using Common;
     using Models;
     using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+    using ViewModels.User;
 
     public class UserService : IUserService
     {

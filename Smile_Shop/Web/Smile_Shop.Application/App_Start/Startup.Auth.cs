@@ -7,6 +7,7 @@
     using Microsoft.Owin.Security.Cookies;
     using Owin;
     using Smile_Shop.Data.Models;
+    using App_Start;
 
     public partial class Startup
     {

@@ -2,12 +2,11 @@
 {
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
-    using Microsoft.Owin.Security;
     using System.Threading.Tasks;
     using System.Web;
     using System.Web.Mvc;
-    using Smile_Shop.Application.ViewModels.Manage;
-    using Smile_Shop.Application.ViewModels.Users;
+    using Smile_Shop.Application.App_Start;
+    using Smile_Shop.ViewModels.Manage;
 
     [Authorize]
     public class ManageController : BaseController

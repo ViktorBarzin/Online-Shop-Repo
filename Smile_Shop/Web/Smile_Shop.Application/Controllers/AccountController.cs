@@ -7,9 +7,9 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using Smile_Shop.Application.App_Start;
-    using ViewModels.Account;
+    using App_Start;
     using Data.Models;
+    using ViewModels.Account;
 
     [Authorize]
     public class AccountController : Controller

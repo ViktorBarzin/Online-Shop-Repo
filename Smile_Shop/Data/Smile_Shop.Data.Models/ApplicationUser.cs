@@ -23,6 +23,8 @@
         [NotMapped]
         public bool PreserveCreatedOn { get; set; }
 
+        public bool IsSystemAdministrator { get; set; }
+
         public DateTime? ModifiedOn { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)

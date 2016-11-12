@@ -1,7 +1,7 @@
 ﻿namespace Smile_Shop.Data.Services.Contracts
 {
-    using Application.ViewModels.User;
     using System.Linq;
+    using ViewModels.User;
 
     public interface IUserService
     {

@@ -1,7 +1,7 @@
-﻿namespace Smile_Shop.Application.ViewModels.Account
+﻿namespace Smile_Shop.ViewModels.Account
 {
-    using System.ComponentModel.DataAnnotations;
     using Lozalization.Resources;
+    using System.ComponentModel.DataAnnotations;
 
     public class LoginViewModel
     {
@@ -9,9 +9,7 @@
         [Display(Name = "Email", ResourceType = typeof(Resources))]
         [EmailAddress]
         public string Email { get; set; }
-
         public string Message { get; set; }
-
         [Required]
         [DataType(DataType.Password)]
         [Display(Name = "Password", ResourceType = typeof(Resources))]

@@ -1,9 +1,9 @@
-﻿namespace Smile_Shop.Application.ViewModels.User
+﻿namespace Smile_Shop.ViewModels.User
 {
     using AutoMapper;
-    using Data.Models;
-    using Infrastructure;
-    using Lozalization.Resources;
+    using Smile_Shop.Data.Models;
+    using Smile_Shop.Lozalization.Resources;
+    using Smile_Shop.ViewModels.Infrastructure;
     using System.ComponentModel.DataAnnotations;
 
     public class UserVM : IMapFrom<ApplicationUser>

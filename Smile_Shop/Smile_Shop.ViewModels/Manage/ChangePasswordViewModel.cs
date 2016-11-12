@@ -1,4 +1,4 @@
-﻿namespace Smile_Shop.Application.ViewModels.Manage
+﻿namespace Smile_Shop.ViewModels.Manage
 {
     using Lozalization.Resources;
     using System.ComponentModel.DataAnnotations;
