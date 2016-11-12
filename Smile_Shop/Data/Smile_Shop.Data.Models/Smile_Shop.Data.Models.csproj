@@ -115,13 +115,17 @@
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="ApplicationUser.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Entities\AuditInfo.cs" />
     <Compile Include="Entities\DeletableEntity.cs" />
     <Compile Include="Entities\IAuditInfo.cs" />
     <Compile Include="Entities\IDeletableEntity.cs" />
     <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserType.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
