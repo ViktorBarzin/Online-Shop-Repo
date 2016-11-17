@@ -8,7 +8,7 @@
     /// <summary>
     public abstract class AuditInfo : IAuditInfo
     {
-        public DateTime CreatedOn { get; set; }
+        public DateTime? CreatedOn { get; set; }
 
         /// <summary>
         /// Specifies whether or not the CreatedOn property should be automatically set.
