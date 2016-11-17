@@ -23,11 +23,12 @@
 
         [Display(Name = "FirstName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
-        [MinLength = 3]
+        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "NameLength", ErrorMessageResourceType = typeof(Resources))]
         public string FirstName { get; set; }
 
         [Display(Name = "LastName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
+        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "NameLength", ErrorMessageResourceType = typeof(Resources))]
         public string LastName { get; set; }
 
 
@@ -38,12 +39,14 @@
 
         public string PasswordResetToken { get; set; }
 
+        [Display(Name = "PhoneNumber", ResourceType = typeof(Resources))]
         public string PhoneNumber { get; set; }
 
         public DateTime RegistrationDate { get; set; }
 
         public DateTime LastLoginDate { get; set; }
 
+        [Display(Name = "City", ResourceType =typeof(Resources)]
         public string City { get; set; }
 
     }

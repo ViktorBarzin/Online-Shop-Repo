@@ -70,6 +70,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to City.
+        /// </summary>
+        public static string City {
+            get {
+                return ResourceManager.GetString("City", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm password.
         /// </summary>
         public static string ConfirmPassword {
@@ -97,11 +106,38 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to First name.
+        /// </summary>
+        public static string FirstName {
+            get {
+                return ResourceManager.GetString("FirstName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please enter a valid email address.
         /// </summary>
         public static string InvalidLoginEmail {
             get {
                 return ResourceManager.GetString("InvalidLoginEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last name.
+        /// </summary>
+        public static string LastName {
+            get {
+                return ResourceManager.GetString("LastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid name length.
+        /// </summary>
+        public static string NameLength {
+            get {
+                return ResourceManager.GetString("NameLength", resourceCulture);
             }
         }
         
@@ -138,6 +174,15 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string PasswordsDontMatch {
             get {
                 return ResourceManager.GetString("PasswordsDontMatch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone number.
+        /// </summary>
+        public static string PhoneNumber {
+            get {
+                return ResourceManager.GetString("PhoneNumber", resourceCulture);
             }
         }
     }
