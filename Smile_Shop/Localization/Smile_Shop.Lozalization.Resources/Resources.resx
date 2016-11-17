@@ -120,20 +120,83 @@
   <data name="Assignment" xml:space="preserve">
     <value>Assignment</value>
   </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Category name</value>
+  </data>
+  <data name="CategoryNameLength" xml:space="preserve">
+    <value>Invalid category name length</value>
+  </data>
+  <data name="CategoryNameRequired" xml:space="preserve">
+    <value>Category must have a name</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
   <data name="ConfirmPassword" xml:space="preserve">
     <value>Confirm password</value>
   </data>
   <data name="CurrentPassword" xml:space="preserve">
     <value>Current password</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DescriptionRequired" xml:space="preserve">
+    <value>Item description is required</value>
+  </data>
   <data name="Email" xml:space="preserve">
     <value>E-mail</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="InvalidCategoryNameLength" xml:space="preserve">
+    <value>Invalid category name length</value>
+  </data>
+  <data name="InvalidDescriptionLength" xml:space="preserve">
+    <value>Invalid description length</value>
+  </data>
+  <data name="InvalidItemNameLength" xml:space="preserve">
+    <value>Invalid item name</value>
   </data>
   <data name="InvalidLoginEmail" xml:space="preserve">
     <value>Please enter a valid email address</value>
   </data>
+  <data name="InvalidNameLength" xml:space="preserve">
+    <value>Invalid name length</value>
+  </data>
+  <data name="InvalidOwnerNameLength" xml:space="preserve">
+    <value>Invalid owner name length</value>
+  </data>
+  <data name="InvalidPrice" xml:space="preserve">
+    <value>Item price must be a positive number</value>
+  </data>
+  <data name="InvalidQuantity" xml:space="preserve">
+    <value>Item quantity must be a positive integer</value>
+  </data>
+  <data name="InvalidUrlLength" xml:space="preserve">
+    <value>Url is longer than the longest allowed url</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Item name</value>
+  </data>
+  <data name="ItemNameRequired" xml:space="preserve">
+    <value>Items must have a name</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
   <data name="NewPassword" xml:space="preserve">
     <value>New password</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Item owner</value>
+  </data>
+  <data name="OwnerRequired" xml:space="preserve">
+    <value>Items must have owners</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Password</value>
@@ -143,5 +206,17 @@
   </data>
   <data name="PasswordsDontMatch" xml:space="preserve">
     <value>The new password and confirmation passwords do not match</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="PictureLocation" xml:space="preserve">
+    <value>The url of the item's picture</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PriceRequired" xml:space="preserve">
+    <value>Item price is required</value>
   </data>
 </root>

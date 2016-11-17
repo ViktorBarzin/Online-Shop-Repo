@@ -23,12 +23,12 @@
 
         [Display(Name = "FirstName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
-        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "NameLength", ErrorMessageResourceType = typeof(Resources))]
+        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "InvalidNameLength", ErrorMessageResourceType = typeof(Resources))]
         public string FirstName { get; set; }
 
         [Display(Name = "LastName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
-        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "NameLength", ErrorMessageResourceType = typeof(Resources))]
+        [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "InvalidNameLength", ErrorMessageResourceType = typeof(Resources))]
         public string LastName { get; set; }
 
 
@@ -46,7 +46,7 @@
 
         public DateTime LastLoginDate { get; set; }
 
-        [Display(Name = "City", ResourceType =typeof(Resources)]
+        [Display(Name = "City", ResourceType =typeof(Resources))]
         public string City { get; set; }
 
     }
