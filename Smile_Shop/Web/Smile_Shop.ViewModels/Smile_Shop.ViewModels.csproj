@@ -101,11 +101,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\Smile_Shop.Data.Models\Smile_Shop.Data.Models.csproj">
+    <ProjectReference Include="..\..\Data\Smile_Shop.Data.Models\Smile_Shop.Data.Models.csproj">
       <Project>{EFD3DB8C-506B-40D2-9A25-5EC46CFD389A}</Project>
       <Name>Smile_Shop.Data.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
+    <ProjectReference Include="..\..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
       <Project>{8968F5DA-38DE-4C2C-807B-57A3B10A92A3}</Project>
       <Name>Smile_Shop.Localization.Resources</Name>
     </ProjectReference>

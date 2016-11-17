@@ -328,8 +328,8 @@
       <Project>{8968f5da-38de-4c2c-807b-57a3b10a92a3}</Project>
       <Name>Smile_Shop.Localization.Resources</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj">
-      <Project>{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}</Project>
+    <ProjectReference Include="..\Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj">
+      <Project>{2777f7ab-2af7-46fc-929b-bbf50bf4036d}</Project>
       <Name>Smile_Shop.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
