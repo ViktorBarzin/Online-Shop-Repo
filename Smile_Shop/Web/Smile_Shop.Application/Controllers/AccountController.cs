@@ -10,6 +10,7 @@
     using App_Start;
     using Data.Models;
     using ViewModels.Account;
+    using System;
 
     [Authorize]
     public class AccountController : Controller
@@ -150,7 +151,7 @@
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, CreatedOn = DateTime.Now };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
