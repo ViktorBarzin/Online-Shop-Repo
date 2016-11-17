@@ -117,7 +117,6 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Category.cs" />
-    <Compile Include="DataAccessLayer\ShopContext.cs" />
     <Compile Include="Entities\AuditInfo.cs" />
     <Compile Include="Entities\DeletableEntity.cs" />
     <Compile Include="Entities\IAuditInfo.cs" />
