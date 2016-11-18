@@ -38,6 +38,9 @@
       <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -98,6 +101,7 @@
     <Compile Include="Utilities\ItemVM.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,7 +110,7 @@
       <Name>Smile_Shop.Data.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Localization\Smile_Shop.Lozalization.Resources\Smile_Shop.Localization.Resources.csproj">
-      <Project>{8968F5DA-38DE-4C2C-807B-57A3B10A92A3}</Project>
+      <Project>{8968f5da-38de-4c2c-807b-57a3b10a92a3}</Project>
       <Name>Smile_Shop.Localization.Resources</Name>
     </ProjectReference>
   </ItemGroup>

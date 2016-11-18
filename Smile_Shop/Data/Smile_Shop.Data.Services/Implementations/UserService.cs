@@ -8,7 +8,7 @@
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
     using ViewModels.User;
-    using ViewModels.User;
+
     public class UserService : IUserService
     {
         private IDeletableRepository<ApplicationUser> users;

@@ -219,4 +219,10 @@
   <data name="PriceRequired" xml:space="preserve">
     <value>Item price is required</value>
   </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="QuantityNameRequired" xml:space="preserve">
+    <value>Quantity name is required</value>
+  </data>
 </root>

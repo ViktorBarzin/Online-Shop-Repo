@@ -365,5 +365,23 @@ namespace Smile_Shop.Lozalization.Resources {
                 return ResourceManager.GetString("PriceRequired", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quantity.
+        /// </summary>
+        public static string Quantity {
+            get {
+                return ResourceManager.GetString("Quantity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quantity name is required.
+        /// </summary>
+        public static string QuantityNameRequired {
+            get {
+                return ResourceManager.GetString("QuantityNameRequired", resourceCulture);
+            }
+        }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Smile_Shop.Data.Models;
 using System.ComponentModel.DataAnnotations;
 using Smile_Shop.Lozalization.Resources;
@@ -15,7 +11,7 @@ namespace Smile_Shop.ViewModels.Utilities
         public int Id { get; set; }
 
         [Display(Name = "Category", ResourceType = typeof(Resources))]
-        [Required(ErrorMessageResourceName = "CategoryRequired", ErrorMessageResourceType = typeof(Resources))]
+        [Required(ErrorMessageResourceName = "CategoryNameRequired", ErrorMessageResourceType = typeof(Resources))]
         [StringLength(30, MinimumLength = 1, ErrorMessageResourceName = "InvalidCategoryNameLength", ErrorMessageResourceType = typeof(Resources))]
         public Category Category { get; set; }
 
@@ -35,7 +31,7 @@ namespace Smile_Shop.ViewModels.Utilities
         public decimal Price { get; set; }
 
         [Display(Name = "Quantity", ResourceType = typeof(Resources))]
-        [Required(ErrorMessageResourceName = "QuantityRequired", ErrorMessageResourceType = typeof(Resources))]
+        [Required(ErrorMessageResourceName = "QuantityNameRequired", ErrorMessageResourceType = typeof(Resources))]
         [Range(0, int.MaxValue, ErrorMessageResourceName = "InvalidQuantity", ErrorMessageResourceType = typeof(Resources))]
         public int Quantity { get; set; }
 

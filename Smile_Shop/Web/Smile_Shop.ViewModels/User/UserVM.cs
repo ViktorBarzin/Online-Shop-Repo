@@ -1,11 +1,12 @@
 ﻿namespace Smile_Shop.ViewModels.User
 {
     using AutoMapper;
-    using Smile_Shop.Data.Models;
+    using Data.Models;
     using Smile_Shop.Lozalization.Resources;
     using Smile_Shop.ViewModels.Infrastructure;
     using System;
     using System.ComponentModel.DataAnnotations;
+    using Microsoft.AspNet.Identity.EntityFramework;
 
     public class UserVM : IMapFrom<ApplicationUser>
     {
