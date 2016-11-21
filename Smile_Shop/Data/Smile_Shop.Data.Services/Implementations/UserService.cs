@@ -18,7 +18,7 @@
             this.users = u;
         }
 
-        public UserVM Add(UserVM vm)
+        public UserVm Add(UserVm vm)
         {
             var model = Mapper.Map<ApplicationUser>(vm);
             model.Id = Guid.NewGuid().ToString();
@@ -28,10 +28,10 @@
             this.users.Add(model);
             this.users.SaveChanges();
 
-            return Mapper.Map<UserVM>(model);
+            return Mapper.Map<UserVm>(model);
         }
 
-        public void Delete(UserVM vm)
+        public void Delete(UserVm vm)
         {
             var user = this.users.FirstOrDefault(u => u.Id == vm.Id);
             this.users.Update(user);
@@ -61,22 +61,22 @@
             return user.PasswordResetToken;
         }
 
-        public UserVM Get(string email)
+        public UserVm Get(string email)
         {
-            return Mapper.Map<UserVM>(this.users.FirstOrDefault(s => s.Email == email));
+            return Mapper.Map<UserVm>(this.users.FirstOrDefault(s => s.Email == email));
         }
 
-        public UserVM GetById(string id)
+        public UserVm GetById(string id)
         {
-            return Mapper.Map<UserVM>(this.users.FirstOrDefault(s => s.Id == id));
+            return Mapper.Map<UserVm>(this.users.FirstOrDefault(s => s.Id == id));
         }
 
-        public IQueryable<UserVM> GetAll()
+        public IQueryable<UserVm> GetAll()
         {
-            return this.users.Where(u => !u.IsSystemAdministrator).ProjectTo<UserVM>();
+            return this.users.Where(u => !u.IsSystemAdministrator).ProjectTo<UserVm>();
         }
 
-        public void Update(UserVM vm)
+        public void Update(UserVm vm)
         {
             var model = this.users.FirstOrDefault(u => u.Id == vm.Id);
             model.UserName = vm.Email;
