@@ -23,7 +23,6 @@
 
         [Display(Name = "FirstName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
-        [MinLength = 3]
         public string FirstName { get; set; }
 
         [Display(Name = "LastName", ResourceType = typeof(Resources))]
