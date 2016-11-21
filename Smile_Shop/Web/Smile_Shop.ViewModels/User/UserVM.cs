@@ -24,7 +24,10 @@
 
         [Display(Name = "FirstName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Resources))]
+<<<<<<< HEAD:Smile_Shop/Smile_Shop.ViewModels/User/UserVM.cs
+=======
         [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "InvalidNameLength", ErrorMessageResourceType = typeof(Resources))]
+>>>>>>> 56a656cc3c32e7587329023033aea3e11d1a73a3:Smile_Shop/Web/Smile_Shop.ViewModels/User/UserVM.cs
         public string FirstName { get; set; }
 
         [Display(Name = "LastName", ResourceType = typeof(Resources))]
