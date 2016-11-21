@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{ED4CF16E-4A78-4F0C-A736-6A5F5BB4993E}"
 EndProject
@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.UnitTests", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.Application", "Web\Smile_Shop.Application\Smile_Shop.Application.csproj", "{630EC6E2-1D91-49B3-A02F-78901A5FBAC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.ViewModels", "Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj", "{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile_Shop.ViewModels", "Web\Smile_Shop.ViewModels\Smile_Shop.ViewModels.csproj", "{2777F7AB-2AF7-46FC-929B-BBF50BF4036D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
