@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url("~/Images/background.png");
+    background-image: url("/Images/background.png");
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,4 +22,64 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+.left-menu {
+    list-style: none;
+}
+
+.left-menu li div {
+    border: 1px solid black;
+    font-size: 15px;
+    padding-right: 3%;
+    padding-left: 1%;
+    width: 20%;
+    margin: 2%;
+    text-align: right;
+    border-color: white;
+}
+
+.left-menu li .blue {
+    width: 18%;
+    margin-left: 4%;
+    background-color: #08A1D9;
+    outline: 1px solid #08a1d9;
+}
+
+.left-menu li .green {
+    margin-bottom: 4%;
+    outline: 1px solid #7C984A;
+    background-color: #7C984A;
+}
+
+.left-menu li .orange {
+    outline: 1px solid #F96A1B;
+    background-color: #F96A1B
+}
+
+.left-menu li div a {
+    color: white;
+    text-decoration: none
+}
+
+.left-menu li .circle {
+    border-color: white;
+	border-radius: 50%;
+	width: 20px;
+    height: 20px;
+    position: absolute;
+	/* width and height can be anything, as long as they're equal */
+    margin: 0;
+    padding: 0;
+    left: 2%;
+}
+
+.left-menu li .circle-orange {
+    border-color: #F96A1B;
+    outline: #F96A1B;
+}
+
+.left-menu li {
+    position: relative;
 }

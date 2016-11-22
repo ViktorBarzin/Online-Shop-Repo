@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Smile_Shop.Lozalization.Resources
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,33 +11,56 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
+    @* Top menu *@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        @* Aside menu *@
+        <div class="aside">
+            <aside>
+                <ul class="left-menu">
+                    <li>
+                        <div class="circle circle-orange"></div>
+                        <div class="orange">@Html.ActionLink(Resources.Knitting.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="blue">@Html.ActionLink(Resources.Cards.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="green">@Html.ActionLink(Resources.Textiles.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="orange">@Html.ActionLink(Resources.Ceramics.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="blue">@Html.ActionLink(Resources.Glass.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="green">@Html.ActionLink(Resources.Wood.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="orange">@Html.ActionLink(Resources.Flowers.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="blue">@Html.ActionLink(Resources.Pictures.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                    <li>
+
+                        <div class="green">@Html.ActionLink(Resources.Jewerly.ToLower(), "Pletivo", "Home")</div>
+                    </li>
+                </ul>
+            </aside>
+        </div>
     </div>
+
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
