@@ -5,19 +5,19 @@
 
     public interface IUserService
     {
-        IQueryable<UserVM> GetAll();
+        IQueryable<UserVm> GetAll();
 
-        UserVM Add(UserVM vm);
+        UserVm Add(UserVm vm);
 
-        void Update(UserVM vm);
+        void Update(UserVm vm);
 
-        void Delete(UserVM vm);
+        void Delete(UserVm vm);
 
         string GeneratePasswordResetToken(string email);
 
-        UserVM Get(string email);
+        UserVm Get(string email);
 
-        UserVM GetById(string Id);
+        UserVm GetById(string Id);
 
         bool Exists(string email);
 

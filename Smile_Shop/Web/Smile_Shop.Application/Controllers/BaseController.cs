@@ -24,8 +24,8 @@
 
         public List<string> AllowedImageExtensions = new List<string> { ".jpg", ".png", ".jpeg", ".gif", ".bmp" };
         private IUserService users;
-        private UserVM currentUser;
-        public UserVM CurrentUser
+        private UserVm currentUser;
+        public UserVm CurrentUser
         {
             get
             {

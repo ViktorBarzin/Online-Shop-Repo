@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Smile_Shop.ViewModels.Utilities
 {
-    public class CategoryVM
+    public class CategoryVm
     {
         [Display(Name = "Assignment", ResourceType = typeof(Resources))]
         public int Id { get; set; }

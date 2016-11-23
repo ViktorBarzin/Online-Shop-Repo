@@ -123,6 +123,9 @@
   <data name="Assignment" xml:space="preserve">
     <value>Assignment</value>
   </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Картички</value>
+  </data>
   <data name="Category" xml:space="preserve">
     <value>Category</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="CategoryNameRequired" xml:space="preserve">
     <value>Category must have a name</value>
+  </data>
+  <data name="Ceramics" xml:space="preserve">
+    <value>Керамика</value>
   </data>
   <data name="City" xml:space="preserve">
     <value>City</value>
@@ -162,8 +168,16 @@
   <data name="FirstName" xml:space="preserve">
     <value>First name</value>
   </data>
+<<<<<<< HEAD
   <data name="Home" xml:space="preserve">
     <value>НАЧАЛО</value>
+=======
+  <data name="Flowers" xml:space="preserve">
+    <value>Цветя</value>
+  </data>
+  <data name="Glass" xml:space="preserve">
+    <value>Стъкло</value>
+>>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
   </data>
   <data name="InvalidCategoryNameLength" xml:space="preserve">
     <value>Invalid category name length</value>
@@ -198,6 +212,12 @@
   <data name="ItemNameRequired" xml:space="preserve">
     <value>Items must have a name</value>
   </data>
+  <data name="Jewerly" xml:space="preserve">
+    <value>Бижута</value>
+  </data>
+  <data name="Knitting" xml:space="preserve">
+    <value>Плетиво</value>
+  </data>
   <data name="LastName" xml:space="preserve">
     <value>Last name</value>
   </data>
@@ -231,6 +251,9 @@
   <data name="PictureLocation" xml:space="preserve">
     <value>The url of the item's picture</value>
   </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Картини</value>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>Price</value>
   </data>
@@ -243,7 +266,15 @@
   <data name="QuantityNameRequired" xml:space="preserve">
     <value>Quantity name is required</value>
   </data>
+<<<<<<< HEAD
   <data name="Terms" xml:space="preserve">
     <value>УСЛОВИЯ</value>
+=======
+  <data name="Textiles" xml:space="preserve">
+    <value>Текстил</value>
+  </data>
+  <data name="Wood" xml:space="preserve">
+    <value>Дърво</value>
+>>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
   </data>
 </root>

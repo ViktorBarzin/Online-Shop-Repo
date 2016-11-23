@@ -79,6 +79,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Картички.
+        /// </summary>
+        public static string Cards {
+            get {
+                return ResourceManager.GetString("Cards", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Category.
         /// </summary>
         public static string Category {
@@ -111,6 +120,15 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string CategoryNameRequired {
             get {
                 return ResourceManager.GetString("CategoryNameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Керамика.
+        /// </summary>
+        public static string Ceramics {
+            get {
+                return ResourceManager.GetString("Ceramics", resourceCulture);
             }
         }
         
@@ -196,11 +214,28 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to НАЧАЛО.
         /// </summary>
         public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+=======
+        ///   Looks up a localized string similar to Цветя.
+        /// </summary>
+        public static string Flowers {
+            get {
+                return ResourceManager.GetString("Flowers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Стъкло.
+        /// </summary>
+        public static string Glass {
+            get {
+                return ResourceManager.GetString("Glass", resourceCulture);
+>>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
             }
         }
         
@@ -304,6 +339,24 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Бижута.
+        /// </summary>
+        public static string Jewerly {
+            get {
+                return ResourceManager.GetString("Jewerly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Плетиво.
+        /// </summary>
+        public static string Knitting {
+            get {
+                return ResourceManager.GetString("Knitting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last name.
         /// </summary>
         public static string LastName {
@@ -403,6 +456,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Картини.
+        /// </summary>
+        public static string Pictures {
+            get {
+                return ResourceManager.GetString("Pictures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Price.
         /// </summary>
         public static string Price {
@@ -439,11 +501,28 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized string similar to УСЛОВИЯ.
         /// </summary>
         public static string Terms {
             get {
                 return ResourceManager.GetString("Terms", resourceCulture);
+=======
+        ///   Looks up a localized string similar to Текстил.
+        /// </summary>
+        public static string Textiles {
+            get {
+                return ResourceManager.GetString("Textiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Дърво.
+        /// </summary>
+        public static string Wood {
+            get {
+                return ResourceManager.GetString("Wood", resourceCulture);
+>>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
             }
         }
     }
