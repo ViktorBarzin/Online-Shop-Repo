@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Admin" xml:space="preserve">
+    <value>АДМИНИСТРАТОР</value>
+  </data>
   <data name="Assignment" xml:space="preserve">
     <value>Assignment</value>
   </data>
@@ -144,8 +147,14 @@
   <data name="ConfirmPassword" xml:space="preserve">
     <value>Confirm password</value>
   </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>КОНТАКТИ</value>
+  </data>
   <data name="CurrentPassword" xml:space="preserve">
     <value>Current password</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>ДОСТАВКА</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Description</value>
@@ -159,6 +168,9 @@
   <data name="FirstName" xml:space="preserve">
     <value>First name</value>
   </data>
+  <data name="Home" xml:space="preserve">
+    <value>НАЧАЛО</value>
+    </data>
   <data name="Flowers" xml:space="preserve">
     <value>Цветя</value>
   </data>
@@ -207,6 +219,12 @@
   <data name="LastName" xml:space="preserve">
     <value>Last name</value>
   </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>ВХОД/РЕГИСТРАЦИЯ</value>
+  </data>
+  <data name="MyAccount" xml:space="preserve">
+    <value>ТОВА СЪМ АЗ</value>
+  </data>
   <data name="NewPassword" xml:space="preserve">
     <value>New password</value>
   </data>
@@ -245,6 +263,9 @@
   </data>
   <data name="QuantityNameRequired" xml:space="preserve">
     <value>Quantity name is required</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>УСЛОВИЯ</value>
   </data>
   <data name="Textiles" xml:space="preserve">
     <value>Текстил</value>

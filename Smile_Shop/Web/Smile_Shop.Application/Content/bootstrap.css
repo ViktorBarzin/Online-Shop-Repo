@@ -321,7 +321,7 @@ body {
 input,
 button,
 select,
-textarea {
+Farea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -3824,7 +3824,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
 }
 
 .nav > li.disabled > a {
@@ -4026,7 +4026,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 20zpx;
   border: 1px solid transparent;
 }
 

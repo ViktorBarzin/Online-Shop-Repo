@@ -5,15 +5,42 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>SmileShop</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
+    <header>
+        <div class="ulCurvedText">
+            <ul class=" nav navbar-nav navbar-right">
+                @*<li>@Html.Partial("_CurvedTextPart1Partial")</li>
+                <li>@Html.Partial("_CurvedTextPart2Partial")</li>*@
+            </ul>
+        </div>
+        <nav>
+            <ul id="ulHeader" class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
+                <li>@Html.ActionLink(Resources.MyAccount, "Account", "Account")</li>
+                <li>@Html.ActionLink(Resources.Terms, "Terms", "Home")</li>
+                <li>@Html.ActionLink(Resources.Delivery, "Delivery", "Delivery")</li>
+                <li>@Html.ActionLink(Resources.Admin, "Admin", "Account")</li>
+                <li>@Html.ActionLink(Resources.Contacts, "About", "Home")</li>
+            </ul>
+        </nav>   
+    </header>
+    <div class="navbar">
+        <ul id="ulFooter" class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
+            <li>@Html.ActionLink(Resources.MyAccount, "Account", "Account")</li>
+            <li>@Html.ActionLink(Resources.LogIn, "LogIn", "Home")</li>
+        </ul>
+    </div>
+
+
+    @RenderBody()
     @* Top menu *@
     <div class="container body-content">
-        @RenderBody()
         <hr />
         @* Aside menu *@
         <aside>
@@ -57,7 +84,6 @@
                 </ul>
             </aside>
         </div>
-
 
 
         @Scripts.Render("~/bundles/jquery")
