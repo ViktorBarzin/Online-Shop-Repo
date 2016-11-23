@@ -23,3 +23,28 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#ulHeader {
+    padding-right: 2%;
+    margin-right: 2.1%;
+    border-style: inset;
+    border-color: #4169e1;
+    background-color: #ff7321;
+}
+
+
+#ulFooter {
+    margin-bottom: 6.5%;
+    padding-right: 23%;
+    margin-right: 2.1%;
+    border-style: inset;
+    border-color: #4169e1;
+    background-color: #ff7321;
+    
+}
+
+.ulCurvedText li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+}
