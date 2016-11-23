@@ -27,19 +27,30 @@ textarea {
     padding-right: 2%;
     margin-right: 2.1%;
     border-style: inset;
-    border-color: #4169e1;
+    border-color: #03BFFE;
     background-color: #ff7321;
+    box-shadow: 0px 0px 10px 10px #93E0F6 ;
 }
 
+a.headerLinks {
+    font-family: Franklin Gothic Medium;
+    color: white;
+}
+
+a.footerLinks {
+    font-family: Franklin Gothic Medium;
+    color: white;
+}
 
 #ulFooter {
     margin-bottom: 6.5%;
-    padding-right: 23%;
+    padding-right: 21.5%;
     margin-right: 2.1%;
     border-style: inset;
-    border-color: #4169e1;
+    border-color: #03BFFE;
     background-color: #ff7321;
-    
+    box-shadow: 0px 0px 10px 10px #93E0F6;
+
 }
 
 .ulCurvedText li {
