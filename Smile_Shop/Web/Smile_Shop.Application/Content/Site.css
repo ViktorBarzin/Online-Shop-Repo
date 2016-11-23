@@ -24,24 +24,32 @@ textarea {
     max-width: 280px;
 }
 
-
 .left-menu {
     list-style: none;
 }
 
+.left-menu li {
+    position: relative;
+}
+
+
 .left-menu li div {
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 3%;
     padding-left: 1%;
-    width: 20%;
+    width: 250px;
+    height: 30px;
     margin: 2%;
     text-align: right;
     border-color: white;
+    padding-right: 7%;
+    font-family: Franklin Gothic;
+    font-weight: normal;
 }
 
 .left-menu li .blue {
-    width: 18%;
+    width: 20.7%;
     margin-left: 4%;
     background-color: #08A1D9;
     outline: 1px solid #08a1d9;
@@ -55,7 +63,8 @@ textarea {
 
 .left-menu li .orange {
     outline: 1px solid #F96A1B;
-    background-color: #F96A1B
+    background-color: #F96A1B;
+
 }
 
 .left-menu li div a {
@@ -64,22 +73,33 @@ textarea {
 }
 
 .left-menu li .circle {
-    border-color: white;
+    /*border-color: white;*/
 	border-radius: 50%;
-	width: 20px;
-    height: 20px;
+	width: 45px;
+    height: 45px;
     position: absolute;
+    background-color: white;
 	/* width and height can be anything, as long as they're equal */
-    margin: 0;
+    border: 5px solid black;
     padding: 0;
     left: 2%;
 }
 
 .left-menu li .circle-orange {
     border-color: #F96A1B;
-    outline: #F96A1B;
+    margin-top: -10px;
+    margin-left: -10px;
+    /*outline: 1px solid #F96A1B;*/
 }
 
-.left-menu li {
-    position: relative;
+.left-menu li .circle-blue {
+    border-color: #08A1D9;
+    margin-top: -10px;
+    margin-left: 1px;
+}
+
+.left-menu li .circle-green {
+    border-color: #7C984A;
+    margin-top: -10px;
+    margin-left: -10px;
 }

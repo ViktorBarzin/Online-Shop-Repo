@@ -16,54 +16,52 @@
         @RenderBody()
         <hr />
         @* Aside menu *@
-        <div class="aside">
-            <aside>
-                <ul class="left-menu">
-                    <li>
-                        <div class="circle circle-orange"></div>
-                        <div class="orange">@Html.ActionLink(Resources.Knitting.ToLower(), "Pletivo", "Home")</div>
+        <aside>
+            <ul class="left-menu">
+                <li>
+                    <div class="circle circle-orange"></div>
+                    <div class="orange">@Html.ActionLink(Resources.Knitting.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Cards.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Textiles.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-orange"></div>
                         <div class="orange">@Html.ActionLink(Resources.Ceramics.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Glass.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Wood.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-orange"></div>
                         <div class="orange">@Html.ActionLink(Resources.Flowers.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Pictures.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Jewerly.ToLower(), "Pletivo", "Home")</div>
                     </li>
                 </ul>
             </aside>
         </div>
-    </div>
 
 
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
 </html>
