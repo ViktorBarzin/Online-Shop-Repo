@@ -28,5 +28,10 @@ namespace Smile_Shop.Application.Controllers
         {
             return this.View();
         }
+
+        public ActionResult Login()
+        {
+            return null;
+        }
     }
 }
