@@ -23,8 +23,34 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.miracle {
+    margin-top: -1%;
+    margin-bottom: -3%;
+    margin-left: 15%;
+    font-family: Gabriola;
+    font-size: 500%;
+    color: red;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/
+     
+}
+
+.smile {
+    float: right;
+    margin-top: -9%;
+    margin-bottom: -3%;
+    margin-right: 15%;
+    font-family: Gabriola;
+    font-size: 700%;
+    color: red;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/ 
+
+}
+
 #ulHeader {
-    padding-right: 2%;
+    padding-right: 7%;
     margin-right: 2.1%;
     border-style: inset;
     border-color: #03BFFE;
@@ -44,7 +70,7 @@ a.footerLinks {
 
 #ulFooter {
     margin-bottom: 6.5%;
-    padding-right: 21.5%;
+    padding-right: 27%;
     margin-right: 2.1%;
     border-style: inset;
     border-color: #03BFFE;
@@ -53,11 +79,6 @@ a.footerLinks {
 
 }
 
-.ulCurvedText li {
-    float: left;
-    list-style-type: none;
-    display: inline-block;
-}
 .left-menu {
     list-style: none;
 }

@@ -170,7 +170,7 @@
   </data>
   <data name="Home" xml:space="preserve">
     <value>НАЧАЛО</value>
-    </data>
+  </data>
   <data name="Flowers" xml:space="preserve">
     <value>Цветя</value>
   </data>
@@ -272,5 +272,11 @@
   </data>
   <data name="Wood" xml:space="preserve">
     <value>Дърво</value>
+  </data>
+  <data name="Miracle" xml:space="preserve">
+    <value>чудотворничка</value>
+  </data>
+  <data name="Smile" xml:space="preserve">
+    <value>Усмивка</value>
   </data>
 </root>

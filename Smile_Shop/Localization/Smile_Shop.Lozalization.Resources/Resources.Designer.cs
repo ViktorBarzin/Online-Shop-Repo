@@ -376,6 +376,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to чудотворничка.
+        /// </summary>
+        public static string Miracle {
+            get {
+                return ResourceManager.GetString("Miracle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ТОВА СЪМ АЗ.
         /// </summary>
         public static string MyAccount {
@@ -498,6 +507,15 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string QuantityNameRequired {
             get {
                 return ResourceManager.GetString("QuantityNameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Усмивка.
+        /// </summary>
+        public static string Smile {
+            get {
+                return ResourceManager.GetString("Smile", resourceCulture);
             }
         }
         
