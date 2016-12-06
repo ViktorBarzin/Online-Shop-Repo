@@ -214,13 +214,6 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
-<<<<<<< HEAD
-        ///   Looks up a localized string similar to НАЧАЛО.
-        /// </summary>
-        public static string Home {
-            get {
-                return ResourceManager.GetString("Home", resourceCulture);
-=======
         ///   Looks up a localized string similar to Цветя.
         /// </summary>
         public static string Flowers {
@@ -235,7 +228,15 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string Glass {
             get {
                 return ResourceManager.GetString("Glass", resourceCulture);
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to НАЧАЛО.
+        /// </summary>
+        public static string Home {
+            get {
+                return ResourceManager.GetString("Home", resourceCulture);
             }
         }
         
@@ -375,6 +376,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to чудотворничка.
+        /// </summary>
+        public static string Miracle {
+            get {
+                return ResourceManager.GetString("Miracle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ТОВА СЪМ АЗ.
         /// </summary>
         public static string MyAccount {
@@ -501,13 +511,24 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
-<<<<<<< HEAD
+        ///   Looks up a localized string similar to Усмивка.
+        /// </summary>
+        public static string Smile {
+            get {
+                return ResourceManager.GetString("Smile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to УСЛОВИЯ.
         /// </summary>
         public static string Terms {
             get {
                 return ResourceManager.GetString("Terms", resourceCulture);
-=======
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Текстил.
         /// </summary>
         public static string Textiles {
@@ -522,7 +543,6 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string Wood {
             get {
                 return ResourceManager.GetString("Wood", resourceCulture);
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
             }
         }
     }

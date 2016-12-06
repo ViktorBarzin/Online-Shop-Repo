@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿@using Smile_Shop.Lozalization.Resources;
-=======
 ﻿@using Smile_Shop.Lozalization.Resources
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
 
 <!DOCTYPE html>
 <html>
@@ -15,37 +11,27 @@
 
 </head>
 <body>
-<<<<<<< HEAD
-    <header>
-        <div class="ulCurvedText">
-            <ul class=" nav navbar-nav navbar-right">
-                <li>@Html.Partial("_CurvedTextPart1Partial")</li>
-                <li>@Html.Partial("_CurvedTextPart2Partial")</li>
-            </ul>
-        </div>
-        <nav>
-            <ul id="ulHeader" class="nav navbar-nav navbar-right">
-                <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
-                <li>@Html.ActionLink(Resources.MyAccount, "Account", "Account")</li>
-                <li>@Html.ActionLink(Resources.Terms, "Terms", "Home")</li>
-                <li>@Html.ActionLink(Resources.Delivery, "Delivery", "Delivery")</li>
-                <li>@Html.ActionLink(Resources.Admin, "Admin", "Account")</li>
-                <li>@Html.ActionLink(Resources.Contacts, "About", "Home")</li>
-            </ul>
-        </nav>   
-    </header>
-    <div class="navbar">
-        <ul id="ulFooter" class="nav navbar-nav navbar-right">
-            <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
-            <li>@Html.ActionLink(Resources.MyAccount, "Account", "Account")</li>
-            <li>@Html.ActionLink(Resources.LogIn, "LogIn", "Home")</li>
-        </ul>
+    @* Top menu *@
+    <div class="miracle">
+        <p id="miracle">@Resources.Miracle</p>
+    </div>
+    <div class="smile">
+        <p>@Resources.Smile</p>
     </div>
 
+    <div class="navbar">
+        <nav>
+            <ul id="ulHeader" class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink(Resources.Home, "Index", "Home", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.MyAccount, "Account", "Account", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Terms, "Terms", "Home", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Delivery, "Delivery", "Delivery", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Admin, "Admin", "Account", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Contacts, "About", "Home", new { @class = "headerLinks" })</li>
+            </ul>
+        </nav>
+    </div>
 
-    @RenderBody()
-=======
-    @* Top menu *@
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -58,35 +44,35 @@
                         <div class="orange">@Html.ActionLink(Resources.Knitting.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Cards.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Textiles.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-orange"></div>
                         <div class="orange">@Html.ActionLink(Resources.Ceramics.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Glass.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Wood.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-orange"></div>
                         <div class="orange">@Html.ActionLink(Resources.Flowers.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-blue"></div>
                         <div class="blue">@Html.ActionLink(Resources.Pictures.ToLower(), "Pletivo", "Home")</div>
                     </li>
                     <li>
-
+                        <div class="circle circle-green"></div>
                         <div class="green">@Html.ActionLink(Resources.Jewerly.ToLower(), "Pletivo", "Home")</div>
                     </li>
                 </ul>
@@ -95,8 +81,15 @@
     </div>
 
 
+    @*Bottom menu*@
+    <div class="navbar">
+        <ul id="ulFooter" class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink(Resources.Home, "Index", "Home", new { @class = "footerLinks" })</li>
+            <li>@Html.ActionLink(Resources.MyAccount, "BAccount", "Account", new { @class = "footerLinks" })</li>
+            <li>@Html.ActionLink(Resources.LogIn, "LogIn", "Home", new { @class = "footerLinks" })</li>
+        </ul>
+    </div>
 
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

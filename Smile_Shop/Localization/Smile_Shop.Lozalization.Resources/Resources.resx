@@ -168,16 +168,14 @@
   <data name="FirstName" xml:space="preserve">
     <value>First name</value>
   </data>
-<<<<<<< HEAD
   <data name="Home" xml:space="preserve">
     <value>НАЧАЛО</value>
-=======
+  </data>
   <data name="Flowers" xml:space="preserve">
     <value>Цветя</value>
   </data>
   <data name="Glass" xml:space="preserve">
     <value>Стъкло</value>
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
   </data>
   <data name="InvalidCategoryNameLength" xml:space="preserve">
     <value>Invalid category name length</value>
@@ -266,15 +264,19 @@
   <data name="QuantityNameRequired" xml:space="preserve">
     <value>Quantity name is required</value>
   </data>
-<<<<<<< HEAD
   <data name="Terms" xml:space="preserve">
     <value>УСЛОВИЯ</value>
-=======
+  </data>
   <data name="Textiles" xml:space="preserve">
     <value>Текстил</value>
   </data>
   <data name="Wood" xml:space="preserve">
     <value>Дърво</value>
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
+  </data>
+  <data name="Miracle" xml:space="preserve">
+    <value>чудотворничка</value>
+  </data>
+  <data name="Smile" xml:space="preserve">
+    <value>Усмивка</value>
   </data>
 </root>

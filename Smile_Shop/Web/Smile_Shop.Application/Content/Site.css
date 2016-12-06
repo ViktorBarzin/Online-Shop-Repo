@@ -24,50 +24,87 @@ textarea {
     max-width: 280px;
 }
 
-<<<<<<< HEAD
-#ulHeader {
-    padding-right: 2%;
-    margin-right: 2.1%;
-    border-style: inset;
-    border-color: #4169e1;
-    background-color: #ff7321;
+.miracle {
+    margin-top: -1%;
+    margin-bottom: -3%;
+    margin-left: 15%;
+    font-family: Gabriola;
+    font-size: 500%;
+    color: red;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/
+     
 }
 
+.smile {
+    float: right;
+    margin-top: -9%;
+    margin-bottom: -3%;
+    margin-right: 15%;
+    font-family: Gabriola;
+    font-size: 700%;
+    color: red;
+    /*-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;*/ 
+
+}
+
+#ulHeader {
+    padding-right: 7%;
+    margin-right: 2.1%;
+    border-style: inset;
+    border-color: #03BFFE;
+    background-color: #ff7321;
+    box-shadow: 0px 0px 10px 10px #93E0F6 ;
+}
+
+a.headerLinks {
+    font-family: Franklin Gothic Medium;
+    color: white;
+}
+
+a.footerLinks {
+    font-family: Franklin Gothic Medium;
+    color: white;
+}
 
 #ulFooter {
     margin-bottom: 6.5%;
-    padding-right: 23%;
+    padding-right: 27%;
     margin-right: 2.1%;
     border-style: inset;
-    border-color: #4169e1;
+    border-color: #03BFFE;
     background-color: #ff7321;
-    
-}
+    box-shadow: 0px 0px 10px 10px #93E0F6;
 
-.ulCurvedText li {
-    float: left;
-    list-style-type: none;
-    display: inline-block;
 }
-=======
 
 .left-menu {
     list-style: none;
 }
 
+.left-menu li {
+    position: relative;
+}
+
+
 .left-menu li div {
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 20px;
     padding-right: 3%;
     padding-left: 1%;
-    width: 20%;
+    width: 250px;
+    height: 30px;
     margin: 2%;
     text-align: right;
     border-color: white;
+    padding-right: 7%;
+    font-family: Franklin Gothic;
+    font-weight: normal;
 }
 
 .left-menu li .blue {
-    width: 18%;
+    width: 20.7%;
     margin-left: 4%;
     background-color: #08A1D9;
     outline: 1px solid #08a1d9;
@@ -81,7 +118,8 @@ textarea {
 
 .left-menu li .orange {
     outline: 1px solid #F96A1B;
-    background-color: #F96A1B
+    background-color: #F96A1B;
+
 }
 
 .left-menu li div a {
@@ -90,23 +128,33 @@ textarea {
 }
 
 .left-menu li .circle {
-    border-color: white;
+    /*border-color: white;*/
 	border-radius: 50%;
-	width: 20px;
-    height: 20px;
+	width: 45px;
+    height: 45px;
     position: absolute;
+    background-color: white;
 	/* width and height can be anything, as long as they're equal */
-    margin: 0;
+    border: 5px solid black;
     padding: 0;
     left: 2%;
 }
 
 .left-menu li .circle-orange {
     border-color: #F96A1B;
-    outline: #F96A1B;
+    margin-top: -10px;
+    margin-left: -10px;
+    /*outline: 1px solid #F96A1B;*/
 }
 
-.left-menu li {
-    position: relative;
+.left-menu li .circle-blue {
+    border-color: #08A1D9;
+    margin-top: -10px;
+    margin-left: 1px;
 }
->>>>>>> 4543c7568bd71358ea3fd9df6a374fcb21454eaa
+
+.left-menu li .circle-green {
+    border-color: #7C984A;
+    margin-top: -10px;
+    margin-left: -10px;
+}
