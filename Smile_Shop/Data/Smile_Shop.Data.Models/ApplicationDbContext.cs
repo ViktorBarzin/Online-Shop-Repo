@@ -12,6 +12,16 @@
             : base("DefaultConnection", false)
         {
         }
+        public IDbSet<Category> Categories { get; set; }
+
+        public IDbSet<Item> Items { get; set; }
+
+        public IDbSet<NLogEntry> NLogEntries { get; set; }
+
+        // IDbSet<User> Users ovverrides something from Asp.net libraries => name is User
+        public IDbSet<User> User { get; set; }
+
+        public IDbSet<UserType> UserTypes { get; set; }
 
         public static ApplicationDbContext Create()
         {
@@ -45,7 +55,5 @@
                 }
             }
         }
-
-        public System.Data.Entity.DbSet<Smile_Shop.ViewModels.User.UserVm> UserVms { get; set; }
     }
 }
