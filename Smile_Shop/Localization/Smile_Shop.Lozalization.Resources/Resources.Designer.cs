@@ -520,6 +520,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Запази.
+        /// </summary>
+        public static string Save {
+            get {
+                return ResourceManager.GetString("Save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Усмивка.
         /// </summary>
         public static string Smile {
