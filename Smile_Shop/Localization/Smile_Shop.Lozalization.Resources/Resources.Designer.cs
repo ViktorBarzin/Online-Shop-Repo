@@ -61,15 +61,6 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to АДМИНИСТРАТОР.
-        /// </summary>
-        public static string Admin {
-            get {
-                return ResourceManager.GetString("Admin", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Assignment.
         /// </summary>
         public static string Assignment {
@@ -165,15 +156,6 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string CurrentPassword {
             get {
                 return ResourceManager.GetString("CurrentPassword", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to ДОСТАВКА.
-        /// </summary>
-        public static string Delivery {
-            get {
-                return ResourceManager.GetString("Delivery", resourceCulture);
             }
         }
         
@@ -525,6 +507,15 @@ namespace Smile_Shop.Lozalization.Resources {
         public static string Save {
             get {
                 return ResourceManager.GetString("Save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to КОЛИЧКА.
+        /// </summary>
+        public static string ShoppingCart {
+            get {
+                return ResourceManager.GetString("ShoppingCart", resourceCulture);
             }
         }
         
