@@ -25,28 +25,24 @@ textarea {
 }
 
 .miracle {
-    margin-top: -1%;
-    margin-bottom: -3%;
+    margin-bottom: -2%;
     margin-left: 15%;
     font-family: Gabriola;
     font-size: 500%;
     color: red;
-    /*-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;*/
-     
+    text-shadow: 1px 1px black; 
 }
 
 .smile {
     float: right;
-    margin-top: -9%;
+    margin-top: -7%;
     margin-bottom: -3%;
     margin-right: 15%;
     font-family: Gabriola;
     font-size: 700%;
     color: red;
-    /*-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;*/ 
-
+    letter-spacing: 20px;
+    text-shadow: 1px 1px black;   
 }
 
 #ulHeader {
