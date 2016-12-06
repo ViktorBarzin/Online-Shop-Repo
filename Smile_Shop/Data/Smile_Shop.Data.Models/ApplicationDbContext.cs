@@ -45,5 +45,7 @@
                 }
             }
         }
+
+        public System.Data.Entity.DbSet<Smile_Shop.ViewModels.User.UserVm> UserVms { get; set; }
     }
 }

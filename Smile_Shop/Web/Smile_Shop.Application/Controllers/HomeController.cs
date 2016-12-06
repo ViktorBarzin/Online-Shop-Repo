@@ -24,15 +24,9 @@ namespace Smile_Shop.Application.Controllers
             return View();
         }
 
-        [HttpPost, ValidateAntiForgeryToken]
-        public ActionResult About(UserVm vm)
+        public ActionResult Profile()
         {
-            //if (string.is)
-            //{
-                
-            //}
-
-            return null;
+            return this.View();
         }
     }
 }

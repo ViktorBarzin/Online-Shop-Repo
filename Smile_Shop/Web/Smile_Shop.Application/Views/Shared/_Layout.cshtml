@@ -23,11 +23,11 @@
         <nav>
             <ul id="ulHeader" class="nav navbar-nav navbar-right">
                 <li>@Html.ActionLink(Resources.Home, "Index", "Home", new { @class = "headerLinks" })</li>
-                <li>@Html.ActionLink(Resources.MyAccount, "About","Home", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.MyAccount, "Profile","Home", new { @class = "headerLinks" })</li>
                 <li>@Html.ActionLink(Resources.Terms, "Terms", "Home", new { @class = "headerLinks" })</li>
                 <li>@Html.ActionLink(Resources.Delivery, "Delivery", "Delivery", new { @class = "headerLinks" })</li>
-                <li>@Html.ActionLink(Resources.Admin, "Admin", "Account", new { @class = "headerLinks" })</li>
-                <li>@Html.ActionLink(Resources.Contacts, "About", "Home", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Admin, "Login", "Account", new { @class = "headerLinks" })</li>
+                <li>@Html.ActionLink(Resources.Contacts, "Contacts", "Home", new { @class = "headerLinks" })</li>
             </ul>
         </nav>
     </div>
@@ -83,8 +83,8 @@
     <div class="navbar">
         <ul id="ulFooter" class="nav navbar-nav navbar-right">
             <li>@Html.ActionLink(Resources.Home, "Index", "Home", new { @class = "footerLinks" })</li>
-            <li>@Html.ActionLink(Resources.MyAccount, "BAccount", "Account", new { @class = "footerLinks" })</li>
-            <li>@Html.ActionLink(Resources.LogIn, "LogIn", "Home", new { @class = "footerLinks" })</li>
+            <li>@Html.ActionLink(Resources.MyAccount, "Profile", "Home", new { @class = "footerLinks" })</li>
+            <li>@Html.ActionLink(Resources.LogIn, "Login", "Account", new { @class = "footerLinks" })</li>
         </ul>
     </div>
 
