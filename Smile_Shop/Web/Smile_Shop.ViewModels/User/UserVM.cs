@@ -50,5 +50,7 @@
         [Display(Name = "City", ResourceType =typeof(Resources))]
         public string City { get; set; }
 
+        public string Image { get; set; }
+
     }
 }

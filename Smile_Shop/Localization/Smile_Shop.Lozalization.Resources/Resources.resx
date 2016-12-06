@@ -279,4 +279,7 @@
   <data name="Smile" xml:space="preserve">
     <value>Усмивка</value>
   </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Полето за име е задължително</value>
+  </data>
 </root>

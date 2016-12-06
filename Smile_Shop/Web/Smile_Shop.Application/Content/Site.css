@@ -157,3 +157,10 @@ a.footerLinks {
     margin-top: -10px;
     margin-left: -10px;
 }
+
+.aboutForm {
+    float: right;
+    margin-top: 100px;
+    width: 50%;
+    height: 100px;
+}

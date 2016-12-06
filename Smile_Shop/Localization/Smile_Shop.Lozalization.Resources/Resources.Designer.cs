@@ -394,6 +394,15 @@ namespace Smile_Shop.Lozalization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Полето за име е задължително.
+        /// </summary>
+        public static string NameRequired {
+            get {
+                return ResourceManager.GetString("NameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New password.
         /// </summary>
         public static string NewPassword {
