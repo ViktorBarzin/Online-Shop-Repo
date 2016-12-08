@@ -5,7 +5,7 @@ using Smile_Shop.Lozalization.Resources;
 
 namespace Smile_Shop.ViewModels.Utilities
 {
-    public class ItemVm
+    public class ItemViewModel
     {
         [Display(Name = "Assignment", ResourceType = typeof(Resources))]
         public int Id { get; set; }

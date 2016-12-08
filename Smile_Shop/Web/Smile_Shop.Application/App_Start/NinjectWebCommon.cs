@@ -8,21 +8,26 @@ namespace Smile_Shop.Application.App_Start
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
+    using Data.Common;
+    using Data.Models;
+    using Ninject.Extensions.Conventions;
+    using Data.Services.Contracts.Common;
+    using Ninject.Extensions.NamedScope;
 
-    public static class NinjectWebCommon 
+    public static class NinjectWebCommon
     {
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
 
         /// <summary>
         /// Starts the application
         /// </summary>
-        public static void Start() 
+        public static void Start()
         {
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
             bootstrapper.Initialize(CreateKernel);
         }
-        
+
         /// <summary>
         /// Stops the application.
         /// </summary>
@@ -30,7 +35,7 @@ namespace Smile_Shop.Application.App_Start
         {
             bootstrapper.ShutDown();
         }
-        
+
         /// <summary>
         /// Creates the kernel that will manage your application.
         /// </summary>
@@ -59,6 +64,14 @@ namespace Smile_Shop.Application.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-        }        
+            kernel.Bind<ApplicationDbContext>().To<ApplicationDbContext>().InCallScope();
+            kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>)).InCallScope();
+            kernel.Bind(typeof(IDeletableRepository<>)).To(typeof(DeletableRepository<>)).InCallScope();
+
+            kernel.Bind(k => k.FromAssemblyContaining<IService>()
+                .SelectAllClasses()
+                .BindAllInterfaces()
+                .Configure(c => c.InRequestScope()));
+        }
     }
 }
