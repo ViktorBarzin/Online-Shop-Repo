@@ -1,8 +1,8 @@
 ﻿namespace Smile_Shop.Data.Models
 {
-    using Microsoft.AspNet.Identity.EntityFramework;
-    using Smile_Shop.Data.Models.Entities;
     using System;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Entities;
     using System.Data.Entity;
     using System.Linq;
 
@@ -45,7 +45,5 @@
                 }
             }
         }
-
-        public System.Data.Entity.DbSet<Smile_Shop.ViewModels.User.UserVm> UserVms { get; set; }
     }
 }

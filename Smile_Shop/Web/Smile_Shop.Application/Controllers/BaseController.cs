@@ -1,9 +1,11 @@
 ﻿namespace RecommendIT.Web.Application.Controllers
 {
+    using AutoMapper;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Serialization;
     using Smile_Shop.Application.Infrastructure;
     using Smile_Shop.Data.Services.Contracts;
+    using Smile_Shop.ViewModels.Infrastructure;
     using Smile_Shop.ViewModels.User;
     using System.Collections.Generic;
     using System.Linq;
@@ -24,8 +26,8 @@
 
         public List<string> AllowedImageExtensions = new List<string> { ".jpg", ".png", ".jpeg", ".gif", ".bmp" };
         private IUserService users;
-        private UserVm currentUser;
-        public UserVm CurrentUser
+        private UserViewModel currentUser;
+        public UserViewModel CurrentUser
         {
             get
             {
@@ -59,6 +61,14 @@
             var json = JsonConvert.SerializeObject(content, Formatting.Indented, jsonSerializerSettings);
 
             return this.Content(json, "application/json");
+        }
+
+        protected IMapper Mapper
+        {
+            get
+            {
+                return AutoMapperConfig.Configuration.CreateMapper();
+            }
         }
     }
 }

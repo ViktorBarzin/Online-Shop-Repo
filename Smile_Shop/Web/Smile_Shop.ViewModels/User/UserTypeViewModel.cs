@@ -10,7 +10,7 @@ using Smile_Shop.Lozalization.Resources;
 
 namespace Smile_Shop.ViewModels.User
 {
-    public class UserTypeVm : IMapFrom<UserType>
+    public class UserTypeViewModel : IMapFrom<UserType>
     {
         [Display(Name = "Assignment", ResourceType = typeof(Resources))]
         public int Id { get; set; }

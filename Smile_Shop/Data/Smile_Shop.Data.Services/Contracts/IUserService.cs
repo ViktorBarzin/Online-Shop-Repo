@@ -1,23 +1,24 @@
 ﻿namespace Smile_Shop.Data.Services.Contracts
 {
+    using Common;
     using System.Linq;
     using ViewModels.User;
 
-    public interface IUserService
+    public interface IUserService : IService
     {
-        IQueryable<UserVm> GetAll();
+        IQueryable<UserViewModel> GetAll();
 
-        UserVm Add(UserVm vm);
+        UserViewModel Add(UserViewModel vm);
 
-        void Update(UserVm vm);
+        void Update(UserViewModel vm);
 
-        void Delete(UserVm vm);
+        void Delete(UserViewModel vm);
 
         string GeneratePasswordResetToken(string email);
 
-        UserVm Get(string email);
+        UserViewModel Get(string email);
 
-        UserVm GetById(string Id);
+        UserViewModel GetById(string Id);
 
         bool Exists(string email);
 
