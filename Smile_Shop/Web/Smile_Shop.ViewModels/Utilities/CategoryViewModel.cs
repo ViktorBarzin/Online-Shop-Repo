@@ -1,14 +1,11 @@
-﻿using Smile_Shop.Lozalization.Resources;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Smile_Shop.ViewModels.Utilities
+﻿namespace Smile_Shop.ViewModels.Utilities
 {
-    public class CategoryVm
+    using Data.Models;
+    using Lozalization.Resources;
+    using Infrastructure;
+    using System.ComponentModel.DataAnnotations;
+
+    public class CategoryViewModel : IMapFrom<Category>
     {
         [Display(Name = "Assignment", ResourceType = typeof(Resources))]
         public int Id { get; set; }

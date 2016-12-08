@@ -1,37 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using Smile_Shop.ViewModels.User;
-
-namespace Smile_Shop.Application.Controllers
+﻿namespace Smile_Shop.Application.Controllers
 {
-    public class HomeController : Controller
-    {
+    using System.Web.Mvc;
+    using RecommendIT.Web.Application.Controllers;
+
+    public class HomeController : BaseController
+    { 
         public ActionResult Index()
         {
-            return View();
+            return this.View();
         }
 
         public ActionResult About()
         {
             return View();
-        }
-
-        public ActionResult Contact()
-        {
-            return View();
-        }
-
-        public ActionResult Profile()
-        {
-            return this.View();
-        }
-
-        public ActionResult Login()
-        {
-            return null;
         }
     }
 }

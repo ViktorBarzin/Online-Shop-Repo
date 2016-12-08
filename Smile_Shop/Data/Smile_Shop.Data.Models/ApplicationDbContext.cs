@@ -1,8 +1,8 @@
 ﻿namespace Smile_Shop.Data.Models
 {
-    using Microsoft.AspNet.Identity.EntityFramework;
-    using Smile_Shop.Data.Models.Entities;
     using System;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Entities;
     using System.Data.Entity;
     using System.Linq;
 

@@ -8,13 +8,13 @@
     using System.ComponentModel.DataAnnotations;
     using Microsoft.AspNet.Identity.EntityFramework;
 
-    public class UserVm : IMapFrom<ApplicationUser>
+    public class UserViewModel : IMapFrom<ApplicationUser>
     {
-        public UserVm()
+        public UserViewModel()
         {
         }
 
-        public UserVm(ApplicationUser user)
+        public UserViewModel(ApplicationUser user)
         {
             Mapper.Map(user, this);
         }
