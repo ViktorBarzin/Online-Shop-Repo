@@ -1,1 +1,18 @@
-﻿
+﻿@using Smile_Shop.ViewModels.Account
+@model LoginViewModel
+
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-control" }))
+{
+    @Html.AntiForgeryToken()
+    
+    @Html.TextBoxFor(m => m.Email)
+    @Html.PasswordFor(m => m.Password)
+
+    @Html.ActionLink("Forgotten password", "ForgotPassword");
+
+    <input type="submit" value="LOGIN" class="btn btn-primary" />
+
+    @Html.CheckBoxFor(m => m.RememberMe)
+
+
+}

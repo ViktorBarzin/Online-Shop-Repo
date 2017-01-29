@@ -43,10 +43,6 @@
         [Display(Name = "PhoneNumber", ResourceType = typeof(Resources))]
         public string PhoneNumber { get; set; }
 
-        public DateTime RegistrationDate { get; set; }
-
-        public DateTime LastLoginDate { get; set; }
-
         [Display(Name = "City", ResourceType =typeof(Resources))]
         public string City { get; set; }
 
