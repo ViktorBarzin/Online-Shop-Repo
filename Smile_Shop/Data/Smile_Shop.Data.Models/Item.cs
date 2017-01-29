@@ -8,7 +8,7 @@ namespace Smile_Shop.Data.Models
 
         public Category Category { get; set; }
 
-        public User Owner { get; set; }
+        public ApplicationUser Owner { get; set; }
 
         public string Name { get; set; }
 

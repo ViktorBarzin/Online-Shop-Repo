@@ -18,7 +18,7 @@ namespace Smile_Shop.ViewModels.Utilities
         [Display(Name = "Owner", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "OwnerRequired", ErrorMessageResourceType = typeof(Resources))]
         [StringLength(30, MinimumLength = 3, ErrorMessageResourceName = "InvalidOwnerNameLength", ErrorMessageResourceType = typeof(Resources))]
-        public Data.Models.User Owner { get; set; }
+        public Data.Models.ApplicationUser Owner { get; set; }
 
         [Display(Name = "ItemName", ResourceType = typeof(Resources))]
         [Required(ErrorMessageResourceName = "ItemNameRequired", ErrorMessageResourceType = typeof(Resources))]

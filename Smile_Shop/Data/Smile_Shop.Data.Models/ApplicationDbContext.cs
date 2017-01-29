@@ -20,7 +20,7 @@
         public IDbSet<NLogEntry> NLogEntries { get; set; }
 
         // IDbSet<User> Users ovverrides something from Asp.net libraries => name is User
-        public IDbSet<User> User { get; set; }
+        public IDbSet<ApplicationUser> User { get; set; }
 
         public IDbSet<UserType> UserTypes { get; set; }
 

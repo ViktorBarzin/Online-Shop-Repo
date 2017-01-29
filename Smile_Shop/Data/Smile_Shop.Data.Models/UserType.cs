@@ -1,8 +1,10 @@
 ﻿namespace Smile_Shop.Data.Models
 {
-    public enum UserType
+    public class UserType
     {
-        Admin = 1,
-        DefaultUser = 2,
+        public int Id { get; set; }
+
+        public string Type { get; set; }
+
     }
 }
