@@ -158,12 +158,12 @@ aside {
 	border-radius: 50%;
 	width: 45px;
     height: 45px;
-    position: relative;
+    position: absolute;
     background-color: white;
 	/* width and height can be anything, as long as they're equal */
     border: 5px solid black;
     padding: 0;
-    left: 2%;
+    /*left: 2%;*/
     display: inline-block;
 
     float: left;
@@ -183,7 +183,7 @@ aside {
 .left-menu li .circle-blue {
     border-color: #08A1D9;
     /*margin-top: -10px;*/
-    margin-left: 1px;
+    margin-left: 1.2%;
 }
 
 .left-menu li .circle-green {
