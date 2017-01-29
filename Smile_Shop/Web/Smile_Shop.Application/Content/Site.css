@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     /*Height-a e malko shano ama ako trqbva shte go mahnem po-natatak*/
-    height: 790px;
+    /*height: 790px;*/
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -35,6 +35,12 @@ nav {
 aside {
     display: inline-block;
     margin-left: 5%;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 23%;
 }
 
 .title-text {
