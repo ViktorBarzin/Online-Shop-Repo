@@ -9,12 +9,13 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+
 </head>
 <body>
-@* Top menu *@
+    @* Top menu *@
     <div class="title-text">
         <div class="miracle">
-            <div id="miracle">@Resources.Miracle</div>
+            <p id="miracle">@Resources.Miracle</p>
         </div>
         <div class="smile">
             <div>@Resources.Smile</div>
@@ -34,7 +35,7 @@
     <div class="container body-content">
         @RenderBody()
         @* Kriq chertata na vanio *@
-        <hr style="visibility: hidden"/>
+        <hr style="visibility: hidden" />
         @* Aside menu *@
         <aside>
             <ul class="left-menu">
@@ -80,7 +81,7 @@
     <footer>
         @*Bottom menu*@
         <div class="navbar">
-            <ul id="ulFooter" class="nav navbar-nav navbar-right">
+            <ul id="ulFooter" class="nav navbar-nav">
                 <li>@Html.ActionLink(Resources.Home, "Index", "Home")</li>
                 <li>@Html.ActionLink(Resources.MyAccount, "Profile")</li>
                 <li>@Html.ActionLink(Resources.LogIn, "Login", "Account")</li>
