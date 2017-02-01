@@ -48,14 +48,16 @@ footer {
 }
 
 .miracle {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right:1%;
+    margin-left: 15%;
     font-family: Gabriola;
-    font-size: 500%;
-    color: red;
+    font-size: 850%;
+    color: #F60000;
     float: left;
-    /*-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;*/
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow:2px 6px black;
+    
      
 }
 
@@ -69,9 +71,15 @@ footer {
     font-size: 900%;
     color: red;
     display: inline-block;
-    /*-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;*/ 
-
+    letter-spacing:30px;
+    /*box-shadow: white;*/
+   /*-webkit-text-fill-color: white;*/
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+    text-shadow:2px 4px black;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 7%;
 }
 
 #ulHeader {
@@ -82,11 +90,20 @@ footer {
     background-color: #ff7321;
     box-shadow: 0px 0px 10px 10px #93E0F6 ;
     width: 1000px;
+    height: 70px;
+}
+
+#ulHeader li {
+    /*margin-right: 40px;*/
+    /*padding-right: 40px;*/
+    padding: 7px;
+    padding-left: 23px;
 }
 
 #ulHeader > li > a{
     font-family: Franklin Gothic Medium;
     color: white;
+    font-size: 120%;
 }
 
 #ulFooter {
@@ -110,6 +127,7 @@ footer {
 
 
 .left-menu {
+    margin-top: 15%;
     list-style: none;
 }
 

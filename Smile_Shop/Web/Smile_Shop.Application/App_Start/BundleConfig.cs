@@ -25,7 +25,10 @@
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/arctext.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/curved-text").Include("~/Scripts/jquery.arctext.js"));
         }
     }
 }

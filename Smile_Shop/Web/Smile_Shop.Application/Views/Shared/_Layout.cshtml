@@ -9,16 +9,15 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
-
 </head>
 <body>
     @* Top menu *@
     <div class="title-text">
         <div class="miracle">
-            <p id="miracle">@Resources.Miracle</p>
+            <div id="miracle">@Resources.Miracle</div>
         </div>
         <div class="smile">
-            <div>@Resources.Smile</div>
+            <div id="smile">@Resources.Smile</div>
         </div>
     </div>
     <nav>
@@ -34,8 +33,6 @@
 
     <div class="container body-content">
         @RenderBody()
-        @* Kriq chertata na vanio *@
-        <hr style="visibility: hidden" />
         @* Aside menu *@
         <aside>
             <ul class="left-menu">
@@ -90,7 +87,9 @@
     </footer>
 </body>
 @Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/curved-text")
 @Scripts.Render("~/bundles/bootstrap")
 @RenderSection("scripts", required: false)
 
 </html>
+<script src="~/Scripts/curved-text/curved-text.js"></script>
